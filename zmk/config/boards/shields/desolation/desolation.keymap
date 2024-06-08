@@ -3,8 +3,7 @@
  *
  * SPDX-License-Identifier: MIT
  *
- * 3 COL Setup
- * &cccv LC(C) LC(V)
+ *
  */
 
 #include <behaviors.dtsi>
@@ -16,17 +15,13 @@
 #    define MS_ACT(key) &lt MSE key
 
 #define ALPHA       0
-#define SYM         1
-#define NUM         2
+#define SYMBOL      1
+#define NUMBER      2
 #define MOUSE       3
-#define MACRO       4
-#define FN          5
-
-
-
 
 &mt {
-    tapping_term_ms = <160>;
+    flavor = "tap-preferred";
+    tapping_term_ms = <180>;
 };
 
 &lt {
@@ -37,104 +32,38 @@
     combos {
 
         compatible = "zmk,combos";
-        combo_q {
+        combo_bootloader {
             timeout-ms = <50>;
-            key-positions = <2 3>;
-            bindings = <&kp Q>;
-        };
-
-        compatible = "zmk,combos";
-        combo_b {
-            timeout-ms = <50>;
-            key-positions = <3 4>;
-            bindings = <&kp B>;
-        };
-
-        compatible = "zmk,combos";
-        combo_j {
-            timeout-ms = <50>;
-            key-positions = <5 6>;
-            bindings = <&kp J>;
-        };
-
-        compatible = "zmk,combos";
-        combo_bspc {
-            timeout-ms = <50>;
-            key-positions = <6 7>;
-            bindings = <&kp BSPC>;
-        };
-
-        compatible = "zmk,combos";
-        combo_v {
-            timeout-ms = <50>;
-            key-positions = <12 13>;
-            bindings = <&kp V>;
-        };
-
-        compatible = "zmk,combos";
-        combo_p {
-            timeout-ms = <50>;
-            key-positions = <13 14>;
-            bindings = <&kp P>;
-        };
-
-        compatible = "zmk,combos";
-        combo_k {
-            timeout-ms = <50>;
-            key-positions = <15 16>;
-            bindings = <&kp K>;
-        };
-
-        compatible = "zmk,combos";
-        combo_excl {
-            timeout-ms = <50>;
-            key-positions = <16 17>;
-            bindings = <&kp EXCL>;
-        };
-
-        compatible = "zmk,combos";
-        combo_z {
-            timeout-ms = <50>;
-            key-positions = <22 23>;
-            bindings = <&kp Z>;
-        };
-
-        compatible = "zmk,combos";
-        combo_x {
-            timeout-ms = <50>;
-            key-positions = <23 24>;
-            bindings = <&kp X>;
-        };
-
-        compatible = "zmk,combos";
-        combo_qmark {
-            timeout-ms = <50>;
-            key-positions = <26 27>;
-            bindings = <&kp QMARK>;
+            key-positions = <1 10>;
+            bindings = <&bootloader>;
         };
     };
 
     behaviors {
 
+        qesc: tap_dance_qesc {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <300>;
+            bindings = <&kp Q>, <&kp ESC>;
+        };
+
         bkt: tap_dance_bracket {
             compatible = "zmk,behavior-tap-dance";
-            label = "tap_dance_bracket";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp LBKT>, <&kp RBKT>;
         };
 
-        cln: tap_dance_colon {
+        brc: tap_dance_brace {
             compatible = "zmk,behavior-tap-dance";
-            label = "tap_dance_colon";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp COLON>, <&kp SEMI>;
+            bindings = <&kp LBRC>, <&kp RBRC>;
         };
 
         par: tap_dance_paren {
             compatible = "zmk,behavior-tap-dance";
-            label = "tap_dance_paren";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp LPAR>, <&kp RPAR>;
@@ -142,178 +71,21 @@
 
         thn: tap_dance_then {
             compatible = "zmk,behavior-tap-dance";
-            label = "tap_dance_then";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp LT>, <&kp GT>;
         };
 
-        qot: tap_dance_quote {
-            compatible = "zmk,behavior-tap-dance";
-            label = "tap_dance_quote";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp SQT>, <&kp DQT>;
-        };
-
-        sls: tap_dance_slash {
-            compatible = "zmk,behavior-tap-dance";
-            label = "tap_dance_slash";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp FSLH>, <&kp BSLH>;
-        };
-
-        pipe: tap_dance_pipe {
-            compatible = "zmk,behavior-tap-dance";
-            label = "tap_dance_pipe";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp PIPE>, <&kp AMPS>;
-        };
-
-        at: tap_dance_at {
-            compatible = "zmk,behavior-tap-dance";
-            label = "tap_dance_at";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp AT>, <&kp HASH>;
-        };
-
-        grvtld: tap_dance_gravetilde {
-            compatible = "zmk,behavior-tap-dance";
-            label = "tap_dance_gravetilde";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp GRAVE>, <&kp TILDE>;
-        };
-
-        perc: tap_dance_perc {
-            compatible = "zmk,behavior-tap-dance";
-            label = "tap_dance_perc";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp PRCNT>, <&kp DLLR>;
-        };
-
-        pg: tap_dance_pg {
-            compatible = "zmk,behavior-tap-dance";
-            label = "tap_dance_pg";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp PG_DN>, <&kp PG_UP>;
-        };
-
-        hmend: tap_dance_hmend {
-            compatible = "zmk,behavior-tap-dance";
-            label = "tap_dance_hmend";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp END>, <&kp HOME>;
-        };
-
-        tdW: tap_dance_W {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <180>;
-            bindings = <&kp W>, <&kp ESC>;
-        };
-
-        tdO: tap_dance_O {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp O>, <&kp COMMA>;
-        };
-
-        tdY: tap_dance_Y {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp Y>, <&kp DOT>;
-        };
-
-        td20: tap_dance_20 {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp N2>, <&kp N0>;
-        };
-
-        cccv: copy_paste {
+        hrm: homerow_mods {
            compatible = "zmk,behavior-hold-tap";
            #binding-cells = <2>;
-           flavor = "hold-preferred";
-           tapping-term-ms = <200>;
-            bindings = <&kp>, <&kp>;
+           tapping-term-ms = <250>;
+           quick-tap-ms = <0>;
+           flavor = "tap-preferred";
+           bindings = <&kp>, <&kp>;
+
         };
 
-        hrm: homerow_mods {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            quick-tap-ms = <0>;
-            flavor = "tap-preferred";
-            bindings = <&kp>, <&kp>;
-        };
-    };
-
-    macros {
-        th: ahk_th {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_tap &kp FSLH &kp FSLH &kp T &kp H>
-                ;
-        };
-
-        re: ahk_re {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_tap &kp FSLH &kp FSLH &kp R &kp E>
-                ;
-        };
-
-        yw: ahk_yw {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_tap &kp FSLH &kp FSLH &kp Y &kp W>
-                ;
-        };
-
-        date: ahk_date {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_tap &kp FSLH &kp FSLH &kp A &kp N1 &kp N1>
-                ;
-        };
-
-        time: ahk_time {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_tap &kp FSLH &kp FSLH &kp A &kp N1 &kp N2>
-                ;
-        };
-
-        lines: ahk_lines {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_tap &kp FSLH &kp FSLH &kp A &kp N0 &kp N8>
-                ;
-        };
-
-        square: ahk_square {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_tap &kp FSLH &kp FSLH &kp A &kp N0 &kp N9>
-                ;
-        };
     };
 
 
@@ -322,69 +94,44 @@
         compatible = "zmk,keymap";
 
         ALPHA_layer {
-// ---------------------------------------------------------------------------------------------------------------
-// |   TAB   |    W   [Q]   F   [B]   G num|         |    X    |         |    M   [J]   L    |    U    |  BSPC   |
-// |  SHIFT  | A macro[V]   R   [P]   S sym|         |    X    |         |    N   [K]   E   [!]   I    |  DEL    |
-// |  XXXX   |  C  fn [Z]   D   [X]   T    |         |    X    |         | H mouse |  O tt,  |  Y  tt. |  XXXX   |
-//                     |   CCCV  |SPC/SHFT | RETURN  |    X    |   SPC   | SPC/ENT |   Paste |
-// ---------------------------------------------------------------------------------------------------------------
-            display-name = "DESOLATION";            
+            display-name = "-DESO-";  
             bindings = <
-                &none &none     &tdW           &kp F              &lt NUM G          &kp M          &kp L    &kp U        &none &none
-                &none &none     &lt MACRO A    &kp R              &lt SYM S          &kp N          &kp E    &kp I        &none &none
-                &none &none     &lt FN C       &hrm LCTRL D       &hrm LALT T        &lt MOUSE H    &tdO     &tdY         &none &none
-                &kp R &kp R &mt LSHIFT SPC &mt LSHIFT SPC         &mt RSHIFT RET &mt RSHIFT RET &kp DEL &kp BSPC
+                &qesc   &kp W          &kp E        &kp R       &kp T        &kp Y     &kp U          &kp I     &kp O    &kp P
+                &kp A   &kp S          &kp D        &kp F       &kp G        &kp H     &kp J          &kp K     &kp L    &kp SQT
+                &kp Z   &hrm LGUI X    &hrm LALT C  &kp V       &kp B        &kp N     &lt MOUSE M    &kp COMMA &kp DOT  &kp SLASH
+                        &kp TAB        &lt SYMBOL CTRL    &kp SPACE   &kp SPACE    &kp RET   &kp RET        &kp DEL   &kp BSPC
             >;
         };
 
-        SYM_layer {
-            display-name = "SYMBOL";
+        SYMBOL_layer {
+            display-name = "SYMBOL";  
             bindings = <
-                &none &none       &grvtld   &kp STAR    &none                  &par   &bkt   &thn         &none &none
-                &none &none       &none     &kp PLUS    &none                  &cln   &sls   &pipe        &none &none
-                &none &none       &none     &none       &none                  &qot   &at    &perc        &none &none
-                                   &trans  &trans  &trans  &none       &none  &trans &trans  &trans
+                &kp EXCL    &kp AT      &kp HASH    &kp DLLR    &kp PRCNT   &kp CARET   &kp AMPS    &kp STAR    &kp PIPE    &none
+                &kp GRAVE   &kp TILDE   &kp UNDER   &kp EQUAL   &none       &bkt        &brc        &par        &thn        &kp BSLH
+                &none       &none       &kp PLUS    &kp MINUS   &none       &none       &none       &kp COLON   &trans      &kp SEMI
+                                  &trans  &trans    &trans      &trans      &trans      &trans      &trans      &trans
             >;
         };
 
-        NUM_layer {
-            display-name = "NUMBER";
+        NUMBER_layer {
+            display-name = "NUMBER";  
             bindings = <
-                &none &none       &kp TAB      &kp STAR  &none            &kp N7   &kp N8   &kp N9         &none &none
-                &none &none       &none        &none     &none            &kp N4   &kp N5   &kp N6         &none &none
-                &none &none       &bootloader  &none     &none            &kp N1   &td20    &kp N3         &none &none
-                        &trans  &trans       &trans      &none            &none    &trans   &trans         &trans
+                &none       &none       &none       &none       &none       &none       &none       &none       &none       &none
+                &kp N1      &kp N2      &kp N3      &kp N4      &kp N5      &kp N6      &kp N7      &kp N8      &kp N9      &kp N0
+                &none       &none       &none       &none       &none       &none       &none       &none       &trans      &none
+                            &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans
             >;
         };
 
         MOUSE_layer {
-            display-name = "MOUSE";
+            display-name = "MOUSE";  
             bindings = <
-                &none &none      &msc SCRL_UP    &mmv MOVE_UP     &msc SCRL_DOWN           &kp MINUS   &none  &kp BSPC      &none &none
-                &none &none      &mmv MOVE_LEFT  &mmv MOVE_DOWN   &mmv MOVE_RIGHT          &kp UNDER   &none  &none         &none &none
-                &none &none      &mkp MCLK       &mkp LCLK        &mkp RCLK                &none       &none  &none         &none &none
-                      &none      &mkp MCLK       &mkp LCLK        &mkp RCLK                &trans      &trans &trans        &none
+                &kp PG_UP  &msc SCRL_UP      &mmv MOVE_UP      &msc SCRL_DOWN    &none    &none       &kp MINUS   &none    &none     &kp BSPC 
+                &kp END    &mmv MOVE_LEFT    &mmv MOVE_DOWN    &mmv MOVE_RIGHT   &none    &none       &kp UNDER   &none    &none     &none
+                &kp PG_DN  &mkp LCLK         &mkp MCLK         &mkp RCLK         &none    &none       &none       &none    &none     &none    
+                           &mkp LCLK         &mkp MCLK         &mkp RCLK         &none    &none       &trans      &trans   &trans
             >;
         };
 
-        MACRO_layer {
-            display-name = "MACRO";
-            bindings = <
-                &none &none       &none   &none   &none           &none &none  &none         &none &none
-                &none &none       &trans  &lines  &square         &none &none  &none         &none &none
-                &none &none       &none   &date   &time           &th   &re    &yw           &none &none
-                      &trans      &trans  &trans  &none           &none &trans &trans        &trans
-            >;
-        };
-
-        FN_layer {
-            display-name = "FUNCTION";    
-            bindings = <
-                &none &none   &cccv LC(C) LC(V)  &kp LC(LA(Q))   &kp LC(LA(G))    &kp F2       &kp UP      &kp DEL    &none &none
-                &none &none   &kp TAB            &none           &pg              &kp LEFT     &kp DOWN    &kp RIGHT  &none &none
-                &none &none   &trans             &kp LC(BSPC)    &hmend           &kp LC(Z)    &kp DEL     &kp LC(Y)  &none &none
-                      &trans  &trans             &trans          &none            &none        &trans      &trans     &trans
-            >;
-        };
     };
 };
