@@ -1,0 +1,6 @@
+
+# Copyright (c) 2024 miketronic
+# SPDX-License-Identifier: MIT
+
+config SHIELD_DESOLATION
+    def_bool $(shields_list_contains,desolation)

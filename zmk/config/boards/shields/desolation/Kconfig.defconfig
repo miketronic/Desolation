@@ -1,0 +1,9 @@
+# Copyright (c) 2024 miketronic
+# SPDX-License-Identifier: MIT
+
+if SHIELD_DESOLATION
+
+config ZMK_KEYBOARD_NAME
+    default "Desolation"
+
+endif
