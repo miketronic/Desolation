@@ -15,7 +15,7 @@ Desolation Keyboard
 
 - 34 keys (plus 4 small tactiles, bonus!)
 - ZMK Wireless
-- nice!view low power draw screen
+- nice!view display
 - 200mAh battery provides several weeks of daily use per charge.
 - Capable of breaking off on or two columns from both ends to drop down to four or even three columns.
 - Low profile choc switches with CFX spacing (closer spacing then standard choc, only caps of size 16.50mm x 16.50mm will fit)
