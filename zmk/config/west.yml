@@ -1,0 +1,18 @@
+manifest:
+  remotes:
+      # zmk official
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+      # bravekarma
+    - name: caksoylar
+      url-base: https://github.com/caksoylar
+  projects:
+    - name: zmk
+      # remote: zmkfirmware
+      # revision: main
+      remote: caksoylar
+      revision: caksoylar/experimental
+      import: app/west.yml
+  self:
+    path: config
+
