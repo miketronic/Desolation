@@ -4,7 +4,7 @@ Desolation Keyboard
 [![version](https://img.shields.io/badge/version-1.0.0-blue)](#)
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-![Desolation 001](images/20240415_103532.jpg)
+![Desolation 001](Images/20240522_095404.jpg)
 ![Desolation 002](Images/20240522_095357.jpg)
 
 [More pictures here](Images/)
