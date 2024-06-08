@@ -7,7 +7,7 @@ Desolation Keyboard
 ![Desolation 001](images/20240415_103532.jpg)
 ![Desolation 002](Images/20240522_095357.jpg)
 
-[More pictures here](images/)
+[More pictures here](Images/)
 
 
 
