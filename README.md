@@ -24,12 +24,13 @@ Desolation Keyboard
 
 ## Introduction
 
-My first wireless keyboard design, currently on version 2 after some tweaks to the first iteration.
+My first wireless keyboard design, currently on version 2 after some tweaks to the initial build.
 
 ### Goals/highlights for this build -
 
   1. Customizable for those who currently use (or want to try dropping down to) four or three columns.  Additionally, if you decide you want to hit the undo button, you can solder the removed columns back on by bodging with the through-holes.
   2. Small 200mAh battery provides a long usage time of weeks before needing to recharge, and hides easily within the case.
+  3. Went with a post-apocalyptic feel, with the name of the boad, the silkscreen, and the chunky power switch.
 
 
 
@@ -54,21 +55,13 @@ As noted in the *Features*, I chose a narrower keyswitch spacing and thus they r
 
 ## Miscellaneous Notes
 
-- For the switchplate, I put the plate on then soldered the switches.  Make sure you like your choice of filament that you printed the plate with because you're stuck with it ;).
-- If you PCBA the board and the USB failed during manufacture, you can solder on a TRRS connector.  I have it designed to mount the TRRS on the bottom of the board to hide the connector and end of the cable within the case.  Also, you'll need to bodge two wires on the board to use TRRS, let me know if you need help if you go this route.
-- The trackballs I used are 16mm polished mineral spheres I found on AliExpress.  I picked up a few different types of mineral and some were too large due to making a rock into a sphere not an exact science, so be mindful of that.  Alternatively, you can use human-made materials for a perfect spec 16mm ball.
-- PCBA would be cheaper if you combine both halves with some mouse bites between them, feel free to do so or modify as you wish.  I did this version as a POC so it was cheaper if I messed up with one board than with both at the same time.
 
 
 
-## The predecessor (CAP 5)
-
-![CAP5 001](images/20240416_134633.jpg)
-
-[Another shot](images/20240416_134642.jpg)
 
 
 
-Contact with comments, questions, or if you build it!
+Contact with comments, questions, or sales inquiries!
 - m1ketronic @discord
-- mxb540@gmail.com
+- tufgek.myshopify.com
+- tufgek@gmail.com
