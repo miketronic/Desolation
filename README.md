@@ -43,7 +43,6 @@ The layout, MM28, leverages combos (the yellow letters shown below) for less-use
 
 The biggest thing with starting a layout like this is to accept the fact that you'll start off at like 5wpm but your brain will take over and it'll become second nature eventually just like any other layout.  It's super fun and not making any lateral finger movements feels nice. 
 
-![br-kn](https://github.com/miketronic/brkn-keyboard/assets/2554604/c3fed3f3-c46d-47f9-8319-7c291844036c)
 
 
 
