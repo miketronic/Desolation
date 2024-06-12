@@ -55,7 +55,11 @@ As noted in the *Features*, I chose a narrower keyswitch spacing and thus they r
 
 ## Miscellaneous Notes
 
+![Desolation 003](images/20240522_101300.jpg)
 
+![Desolation 004](images/20240522_101300.jpg)
+
+![Desolation 005](images/20240522_101300.jpg)
 
 
 
