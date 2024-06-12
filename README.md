@@ -30,7 +30,7 @@ My first wireless keyboard design, currently on version 2 after some tweaks to t
 
   1. Customizable for those who currently use (or want to try dropping down to) four or three columns.  Additionally, if you decide you want to hit the undo button, you can solder the removed columns back on by bodging with the through-holes.
   2. Small 200mAh battery provides a long usage time of weeks before needing to recharge, and hides easily within the case.
-  3. Went with a post-apocalyptic feel, with the name of the boad, the silkscreen, and the chunky power switch.
+  3. Went with a post-apocalyptic feel, with the name of the boad, the silkscreen, and the chunky power switch...oh, and I'm a big fan of birds.
 
 
 
