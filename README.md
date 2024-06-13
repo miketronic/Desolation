@@ -42,8 +42,7 @@ As noted in the *Features*, I chose a narrower keyswitch spacing and thus they r
 
 
 ## Miscellaneous Notes
-
-
+[My keymap notes](https://github.com/miketronic/MM20-keyboard-layout) if you decide to try a 3 or 4 column variation.
 
 
 
