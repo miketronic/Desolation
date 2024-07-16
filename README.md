@@ -50,5 +50,4 @@ As noted in the *Features*, I chose a narrower keyswitch spacing and thus they r
 
 Contact with comments, questions, or sales inquiries!
 - m1ketronic @discord
-- tufgek.myshopify.com
 - tufgek@gmail.com
