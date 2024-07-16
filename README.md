@@ -24,7 +24,7 @@ Desolation Keyboard
 
 ## Introduction
 
-My first wireless keyboard design, currently on version 2 after some tweaks to the initial build.
+My first wireless keyboard design, currently on version 3 after some extensive updates.
 
 ### Goals/highlights for this build -
 
