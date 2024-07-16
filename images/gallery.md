@@ -28,7 +28,9 @@
 ![Desolation 009](20240715_154531.jpg)
 
 
-## Desolation V3 - Different microswitch options - tactile or soft silent mouse switch.  3D printed caps included.
+### Desolation V3 has different microswitch options 
+- Tactile or soft silent mouse switch
+- 3D printed caps included.
 ![Desolation 010](20240714_142437.jpg)
 
 ![Desolation 011](20240714_142459.jpg)
