@@ -36,7 +36,9 @@
 ![Desolation 011](20240714_142459.jpg)
 
 
-### All Versions - Able to bodge columns back on with the board vias, in case you tried to go down to 3 or 4 columns and have regerts :)
+### All Versions 
+- Able to bodge columns back on with the board vias, in case you tried to go down to 3 or 4 columns and have regerts :)
+- Nice!View compatible on all versions, just attach it and ready to go!
 ![Desolation 012](20240606_101252.jpg)
 
 ![Desolation 013](20240606_101300.jpg)
