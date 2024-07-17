@@ -4,6 +4,10 @@
 
 ![Desolation 002](20240716_090910.jpg)
 
+My current daily - 3 column of the V1 board
+![Desolation 024](20240717_113109.jpg)
+
+![Desolation 025](20240717_113118.jpg)
 
 ## Desolation V3 - Updates!
 - Hot swap sockets!
