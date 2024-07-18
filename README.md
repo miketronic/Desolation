@@ -26,6 +26,8 @@ Desolation Keyboard
 
 My first wireless keyboard design, currently on version 3 after some extensive updates.
 
+The image on the board was generating by DeepAI.org using the 'Fantasy World Generator'.  The prompt used was 'a post-apocalyptic city with undead birds', it took probably close to 100 tries to get the image I wanted.
+
 ### Goals/highlights for this build -
 
   1. Customizable for those who currently use (or want to try dropping down to) four or three columns.  Additionally, if you decide you want to hit the undo button, you can solder the removed columns back on by bodging with the through-holes.
