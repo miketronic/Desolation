@@ -15,7 +15,7 @@ Desolation Keyboard
 
 - 34 keys (plus 4 small tactiles, bonus!)
 - ZMK Wireless - I have a [module ready for you to use](https://github.com/miketronic/zmk-keyboards-desolation/tree/main) to make building and flashing your own keymap easier
-- nice!view display
+- nice!view display capable
 - 200mAh battery provides several weeks of daily use per charge.
 - Capable of breaking off on or two columns from both ends to drop down to four or even three columns.
 - Low profile choc switches with CFX spacing (closer spacing then standard choc, only caps of size 16.50mm x 16.50mm will fit)
