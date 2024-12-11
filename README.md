@@ -4,8 +4,12 @@ Desolation Keyboard
 [![version](https://img.shields.io/badge/version-4.0.0-blue)](#)
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-![Desolation 001](images/20240716_090901.jpg)
-![Desolation 002](images/20240522_095357.jpg)
+![Desolation 001](images/deso_v4_001.jpg)
+![Desolation 002](images/deso_v4_002.jpg)
+![Desolation 003](images/deso_v4_003.jpg)
+![Desolation 004](images/deso_v4_004.jpg)
+![Desolation 005](images/deso_v4_005.jpg)
+![Desolation 006](images/deso_v4_006.jpg)
 
 ### [More pictures here](images/gallery.md)
 
@@ -14,6 +18,7 @@ Desolation Keyboard
 ## Features
 ### V4
 - 36 keys
+- ZMK Wireless [module](https://github.com/miketronic/zmk-keyboards-desolation/tree/main)
 - MX spaced
 - Choc or MX switch compatible
 - 2x 5-way switches
@@ -34,6 +39,11 @@ Desolation Keyboard
 
 ## Introduction
 
+### V4
+I wanted something more for the masses, so the board can accomodate MX or Choc V1 switches (unsure of V2, will test - I've learned that the center post is larger).  As such, it can use any MX or Choc switches and you're not stuck using CFX spaced keycaps (oh how I love their compactness though :) ).
+  The silkscreen is AI generated using Fotor.com paid subscription with the Neonpunk style.  The prompt was "looking down the street of a desolate city".  It took roughly 40 tries to get the image I chose.
+
+### V3
 My first wireless keyboard design, currently on version 3 after some extensive updates.
 
 The image on the board was generating by DeepAI.org using the 'Fantasy World Generator'.  The prompt used was 'a post-apocalyptic city with undead birds', it took probably close to 100 tries to get the image I wanted.
@@ -49,7 +59,8 @@ The image on the board was generating by DeepAI.org using the 'Fantasy World Gen
 
 ## Keycaps
 
-As noted in the *Features*, I chose a narrower keyswitch spacing and thus they require narrower keycaps.  CFX keycaps are commercially available from Chosfox, or you can print your own, for which I've included files in the keycaps folder.  They easily print upside down on an FDM printer, and I use a textured baseplate.
+Follwing is V3 ONLY, V4 can use ANY MX or Choc keycap 
+  -- As noted in the *Features*, I chose a narrower keyswitch spacing and thus they require narrower keycaps.  CFX keycaps are commercially available from Chosfox, or you can print your own, for which I've included files in the keycaps folder.  They easily print upside down on an FDM printer, and I use a textured baseplate.
 
 
 
