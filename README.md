@@ -61,8 +61,9 @@ The image on the board was generating by DeepAI.org using the 'Fantasy World Gen
 
 ## Keycaps
 
-Follwing is V3 ONLY, V4 can use ANY MX or Choc keycap 
-  -- As noted in the *Features*, I chose a narrower keyswitch spacing and thus they require narrower keycaps.  CFX keycaps are commercially available from Chosfox, or you can print your own, for which I've included files in the keycaps folder.  They easily print upside down on an FDM printer, and I use a textured baseplate.
+The below is for V3 ONLY, V4 can use ANY MX or Choc keycap
+
+As noted in the *Features*, I chose a narrower keyswitch spacing and thus they require narrower keycaps.  CFX keycaps are commercially available from Chosfox, or you can print your own, for which I've included files in the keycaps folder.  They easily print upside down on an FDM printer, and I use a textured baseplate.
 
 
 
