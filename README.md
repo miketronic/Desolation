@@ -11,9 +11,8 @@ Desolation Keyboard
 
 
 
-## Features
-
-# V4
+### Features
+## V4
 - 36 keys
 - MX spaced
 - Choc or MX switch compatible
@@ -23,7 +22,7 @@ Desolation Keyboard
 - Nice!view ready
 - Capable of breaking off on or two columns from both ends to drop down to four or even three columns.
 
-# V3
+## V3
 - 34 keys (plus 4 small tactiles, bonus!)
 - ZMK Wireless - I have a [module ready for you to use](https://github.com/miketronic/zmk-keyboards-desolation/tree/main) to make building and flashing your own keymap easier
 - Nice!view ready
