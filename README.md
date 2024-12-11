@@ -40,7 +40,8 @@ Desolation Keyboard
 ## Introduction
 
 ### V4
-I wanted something more for the masses, so the board can accomodate MX or Choc V1 switches (unsure of V2, will test - I've learned that the center post is larger).  As such, it can use any MX or Choc switches and you're not stuck using CFX spaced keycaps (oh how I love their compactness though :) ).
+I wanted something more for the masses, so the board can accomodate MX or Choc V1 switches (unsure of V2, will test - I've learned that the center post is larger).  As such, it can use any MX or Choc switches and you're not stuck using CFX spaced keycaps (oh how I love their compactness though :) ).  The 5-ways are hidden in a base to hide the ugly and a cap that feels good for the four directions and the press down.
+  
   The silkscreen is AI generated using Fotor.com paid subscription with the Neonpunk style.  The prompt was "looking down the street of a desolate city".  It took roughly 40 tries to get the image I chose.
 
 ### V3
